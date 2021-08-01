@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>서울특별시</title>
+    <link rel="stylesheet" type="text/css" href="jquery/jquery-ui-1.11.4/cupertino/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="jquery/jquery-1.12.3.min.js"></script>
+    <script src="jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">서울특별시</a>
+        </div>
+    </nav>
+    <div id="container">
+
+<!--         <div class="tour-wrap">
+            <div>
+                <div class="w100">
+                    <span class="title tour-title">관광지명</span>
+                    <input type="button" value="X" class="btn btn-primary btn-delete">
+                </div>
+                <div class="w100">
+                    <input type="button" value="사진 이어보기" class="btn btn-tour-photoview" onclick="viewPhotoSlide();">
+                </div>
+
+                <div class="card">
+                    <div class="w100">
+                    <span class="title">카드명</span>
+                        <input type="button" value="X" class="btn btn-primary btn-delete">
+                    </div>
+                    <img src="images/1.jpg" width="230">
+                    <p>
+                        튤립관광지의 아름다운 튤립 사진입니다.
+                    </p>
+                </div>
+
+                <input type="button" value="카드 추가" class="btn btn-primary btn-card-add" onclick="openPopupAddCard();">
+            </div>
+        </div> -->
+
+        <div class="tour-wrap" id="addForm">
+            <div>
+                <form>
+                    <div class="form-group">
+                        <input type="text" id="tourName" class="form-control" placeholder="관광지명" autocomplete="off">
+                    </div>
+                    <div class="form-group last-form">
+                        <input type="submit" value="완료" class="btn btn-primary">
+                        <input type="button" value="취소" class="btn btn-primary tourCancel">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="tour-wrap" id="addFormButton">
+            <input type="button" value="관광지 추가" class="btn btn-cancel btn-tour-add">
+        </div>
+
+    </div>
+</body>
+</html>
